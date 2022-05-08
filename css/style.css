@@ -26,3 +26,28 @@ a{
 body{
     background: #000;
 }
+
+.section__header{
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+}
+
+.section__header:before{
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 44%;
+    width: 120px;
+    height: 1px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -24,6 +24,11 @@
 
 .catalog-item{
     width: 260px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.catalog-item.new{
     margin-left: 50px;
 }
 
@@ -63,6 +68,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-left: -50px;
+    margin-top: -20px;
 }
 
 .section-collection__seazon{
