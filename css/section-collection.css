@@ -69,6 +69,7 @@
     flex-wrap: wrap;
     margin-left: -50px;
     margin-top: -20px;
+    justify-content: center;
 }
 
 .section-collection__seazon{
@@ -192,5 +193,9 @@
     .section-collection__collection-intro{
         max-width: 1040px;
         width: 100%;
+    }
+
+    .section-collection__collection{
+        height: auto;
     }
 }
